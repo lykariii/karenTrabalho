@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script>scr="script.js"</script>
+      <title>Formulário</title>
+   </head>
+   <body>
+      <form method="post" action="/pessoas/criar">
+         <div>
+            <label id="nome" for="text">Nome:</label>
+            <input id="nome" name="nome" type="text"
+            placeholder="Digite seu Nome" />
+         </div>
+         <div>
+            <label id="sobrenome" for="text">Sobrenome:</label>
+            <input id="sobrenome" name="sobrenome" type="text"
+            placeholder="Digite seu Sobrenome" />
+         </div>
+         <div>
+            <label id="altura" for="text">Altura:</label>
+            <input id="altura" name="altura" type="text"
+            placeholder="Digite sua Altura" />
+         </div>
+         <div>
+            <label id="idade" for="text">Idade:</label>
+            <input id="idade" name="idade" type="number"
+            placeholder="Digite sua Idade" />
+         </div>
+         <input type="submit" value="Enviar">
+      </form>
+   </body>
+</html>
