@@ -8,7 +8,8 @@
 </head>
 <body>
     <% pessoas.forEach((pessoa) => { %>
-       <P> <%= pessoa.nome %> <%= pessoa.sobrenome %> <a href='pessoas/delete'>DELETAR</a></P>
+       <P> <%= pessoa.id %> <%= pessoa.nome %> <%= pessoa.sobrenome %></P>
+       <button><a href="/pessoas/delete?id=<%= pessoa.id %>">DELETAR</a></button>
     <% }) %>
 </body>
 </html>
