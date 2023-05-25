@@ -13,7 +13,7 @@ module.exports = {
       {nome: 'Isabela ', sobrenome: 'Gualberto', idade: 17, altura:'153'},
       {nome: 'Karina ', sobrenome: 'Decleva', idade: 16, altura:'163'},
       {nome: 'Vitória ', sobrenome: 'Medeiros', idade: 16, altura:'105'},
-            
+      {nome: 'Karol ', sobrenome: 'Silva', idade: 16, altura:'109'} 
     ], {});
 },
 
