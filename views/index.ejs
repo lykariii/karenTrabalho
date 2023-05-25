@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='./style/cardstyle.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arquivo</title>
 </head>
 <body>
-    <% pessoas.forEach((pessoa) => { %>
-       <P> <%= pessoa.id %> <%= pessoa.nome %> <%= pessoa.sobrenome %></P>
-       <button><a href="/pessoas/delete?id=<%= pessoa.id %>">DELETAR</a></button>
-    <% }) %>
+          <% pessoas.forEach((pessoa) => { %>
+            <div class="container">
+                <div class="wrapper">
+          <h1> <%= pessoa.id %> </h1>
+          <P> <%= pessoa.nome %> <%= pessoa.sobrenome %></P>
+         </div>
+         <div class="button-wrapper"> 
+         <button class="btn fill"><a href="/pessoas/delete?id=<%= pessoa.id %>">DELETAR</a></button></div>
+        </div>
+    </div> <% }) %>
+</div>
 </body>
 </html>

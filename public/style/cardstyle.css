@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1013-p-0009c-01-ksi8808s.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9ac84c664231d41bffbd70f0707557db") center center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+h3{
+    text-align: center;
+}
+.cadastro {
+  display: flex;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);  
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 14pt;
+    line-height: 28pt;
+    font-family: "Fjalla One";
+    margin-bottom: 28pt;
+    border: none;
+    background: #ffe8ff;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: black;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    line-height: 28pt;
+    padding: 0 20px;
+    background: #ffa580;
+    letter-spacing: 2px;
+    transition: 0.2s all ease-in-out;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px 1px #95a4ff, 3px 3px 1px 2px black;
+  }
+  button:hover {
+    background: black;
+    color: white;
+    border: 1px solid black;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    border-bottom: 5px solid #95a4ff;
+    -webkit-text-fill-color: #2A293E;
+    -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  .fill {
+    background: #bbced9;
+    color: rgba(255,255,255,0.95);
+    filter: drop-shadow(0);
+    transition: all .3s ease; 
+  }
+  
+  .fill:hover{
+    transform: scale(1.125);  
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+    transition: all .3s ease;    
+  }
+  
